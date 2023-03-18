@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+.links{
+    text-align: center;
+    font-size: 25px;
+    font-family: Source Sans Pro;
+    margin-right: -20px;
+    margin: -60px;
+}
+
+.navList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+nav a:hover{
+    color: wheat;
+}
+
+.material-symbols-outlined{
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+header{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: rgb(245,175,28);
+    height: 70px;
+    /* align-items: center; */
+    padding: 10px;
+    /* position: fixed; */
+    /* width: 500px; */
+}
+
+.nombre{
+    font-size: 50px;
+    font-family: 'Alex Brush';
+    margin: 10px;
+}
+
+.titulo{
+    font-family: 'Allerta Stencil';
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+div img{
+    height: 200px;
+    width: 200px;
+    padding-right: 180px;
+}
+
+.imagenes{
+    padding-left: 152px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nombreHam{
+    font-family: Verdana;
+    font-size: 15px;
+    padding-bottom: 60px;
+}
+
+footer{
+    background-color: #332E2E;
+    height: 200px;
+    display: flex;
+}
+
+.logoFooter{
+    padding-right: 300px;
+}
+
+.info{
+    display: block;
+    padding: 60px 79px 38px 122px
+}
+
+footer h4{
+    color:  rgb(245,175,28);;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Alex Brush';
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+.ubicaciones{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.locales{
+    padding-left: 300px;
+    padding-right: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 55px;
+}
+.palermo{
+    padding-right: 112px !important;
+}
+
+section div h2{
+    font-size: 30px;
+    font-family: 'verdana';
+    color: rgb(245,175,28);
+    margin: 0px;
+}
+
+.direccion{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.texto{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+
+.imgFundadores{
+    height: 220px;
+    width: 500px;
+    padding-left: 413px;
+    padding-bottom: 70px;
+}
+
+.comida{
+    color: rgb(245,175,28);
+    padding-left: 90px;
+    height: 30px;
+}
