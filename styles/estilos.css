@@ -36,6 +36,9 @@ nav a:hover{
 }
 
 .titulo{
+    font-family: 'Allerta Stencil';
+    font-size: 60px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -51,11 +54,6 @@ header{
     margin: 10px;
 }
 
-.titulo{
-    font-family: 'Allerta Stencil';
-    font-size: 60px;
-    margin-top: 10px;
-}
 
 div img{
     height: 200px;
@@ -171,15 +169,72 @@ footer p{
     }
     
     .nombre{
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Alex Brush';
         margin: 5px;
     }
+
     .links{
         text-align: center;
         font-size: 15px;
-        font-family: Source Sans Pro;
-        margin-right: 20px;
-        margin: -35px;
+        font-family: sans-serif;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
+
+
+    .titulo{
+        font-family: 'Allerta Stencil';
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    div img{
+        height: 100px;
+        width: 100px;
+        padding-right: 30px;
+    }
+    
+    .imagenes{
+        padding-left: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    footer{
+        background-color: #332E2E;
+        height: 150px;
+        display: flex;
+    }
+    
+    .logoFooter{
+        padding-right: 300px;
+        padding-left: 13px;
+        width: 40px;
+    }
+    
+    .info{
+        display: block;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    
+    footer h2{
+        color:  rgb(245,175,28);
+        font-size: 30px;
+        margin-top: 10px;
+        font-family: 'Alex Brush';
+        width: 50px;
+    }
+    
+    footer p{
+        color: white;
+        font-size: 13px;
+        font-family: 'Lucida Sans';
+        text-align: left;
     }
 }
