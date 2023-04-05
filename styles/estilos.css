@@ -7,6 +7,12 @@ body{
 
 }
 
+.nombre{
+    font-size: 50px;
+    font-family: 'Alex Brush';
+    margin: 10px;
+}
+
 .links{
     text-align: center;
     font-size: 25px;
@@ -24,19 +30,14 @@ body{
 
 
 a{
+    font-family: 'Segoe UI';
     text-decoration: none;
-    color: black;
+    color: rgb(10, 10, 10);
     padding: 30px;
 }
 
 nav a:hover{
     color: wheat;
-}
-
-.material-symbols-outlined{
-    padding-right: 30px;
-    padding-left: 1245px;
-    font-size: 42px;
 }
 
 .titulo{
@@ -50,12 +51,6 @@ header{
     background-color: rgb(245,175,28);
     height: 70px;
     padding: 10px;
-}
-
-.nombre{
-    font-size: 50px;
-    font-family: 'Alex Brush';
-    margin: 10px;
 }
 
 
