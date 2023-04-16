@@ -45,9 +45,9 @@
             }
 
             .imagenes{
-                width: 360px;
+                width: 260px;
                 margin: auto;
-                gap: 30px;
+                gap: 60px;
                 margin-top: 37px;            
                 
                 img{
@@ -57,7 +57,8 @@
                 
                 .nombreHam{
                     padding: 0px;
-                    font-size: 7px;
+                    font-size: 12px;
+                    width: 100px;
                 }
             }
 
@@ -240,7 +241,8 @@
                 
                 .nombreHam{
                     padding: 0px;
-                    font-size: 7px;
+                    font-size: 12px;
+                    width: 100px;
                 }
             }
 
@@ -422,7 +424,8 @@
                 
                 .nombreHam{
                     padding: 0px;
-                    font-size: 7px;
+                    font-size: 14px;
+                    width: 150px;
                 }
             }
 
@@ -516,7 +519,6 @@
         footer{
             height: 150px;
             display: flex;
-            justify-content: center;
 
             .logoFooter{
                 padding-right: 200px;

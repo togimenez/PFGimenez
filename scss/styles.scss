@@ -1,5 +1,6 @@
 
 @import "partials/variables";
+@import "partials/mixin";
 
 
 body{
@@ -30,8 +31,7 @@ body{
             justify-content: center;
 
             ul{
-                display: flex;
-                justify-content: center;
+                @extend nav;
                 list-style: none;
                 padding: 0%;
 
@@ -68,8 +68,7 @@ body{
         
             
             img{
-                height: 200px;
-                width: 200px; 
+                @include sizes(200px, 200px);
                 transition: border-radius 1s;
 
                 &:hover{
@@ -189,7 +188,8 @@ body{
         
         .info{
             display: block;
-            padding: 60px 79px 38px;
+            padding-top: 30px;
+            padding-left: 30px;
                 
             p{
                 color: white;
