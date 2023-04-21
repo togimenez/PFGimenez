@@ -170,12 +170,12 @@ body{
         background-color: #332E2E;
         height: 200px;
         display: flex;
+        justify-content: space-between;
         margin-top: auto;
 
         .logoFooter{
-            padding-right: 300px;
-            padding-left: 13px;
-            width: 0px;
+            justify-content: left;
+            width: 154px;
 
             h2{
                 color:  rgb(245,175,28);
@@ -185,18 +185,21 @@ body{
                 width: $bigsize;
             }
         }
-        
-        .info{
+
+        .footerText{
             display: block;
-            padding-top: 30px;
-            padding-left: 30px;
-                
+
             p{
                 color: white;
                 font-size: $smallSize ;
                 font-family: 'Lucida Sans';
+                text-align: start;
+            
             }
+
         }
+                
+        
     }
 }
 @import "partials/mediaQuery";
