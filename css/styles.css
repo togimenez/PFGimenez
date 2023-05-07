@@ -150,6 +150,11 @@ body footer .logoFooter h2 {
 }
 body footer .footerText {
   display: block;
+
+
+  padding-top: 30px;
+  padding-left: 30px;
+
 }
 body footer .footerText p {
   color: white;
@@ -347,7 +352,11 @@ body footer .footerText p {
   }
   body main .imagenes .nombreHam {
     padding: 0px;
+
     font-size: 14px;
+
+    font-size: 12px;
+
     width: 100px;
   }
   body main .grilla {
@@ -568,6 +577,13 @@ body footer .footerText p {
   body footer {
     height: 150px;
     display: flex;
+ }
+  body footer .logoFooter {
+    padding-right: 200px;
+    padding-left: 13px;
+    width: 0px;
+    margin-left: 2px;
+
   }
   body footer .logoFooter h2 {
     font-size: 40px;
